@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E564921E6512C2001DA4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564911E6512C2001DA4E8 /* main.m */; };
+		04E564951E6512C2001DA4E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564941E6512C2001DA4E8 /* AppDelegate.m */; };
+		04E564981E6512C2001DA4E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564971E6512C2001DA4E8 /* ViewController.m */; };
+		04E5649B1E6512C2001DA4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E564991E6512C2001DA4E8 /* Main.storyboard */; };
+		04E5649D1E6512C2001DA4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E5649C1E6512C2001DA4E8 /* Assets.xcassets */; };
+		04E564A01E6512C2001DA4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E5649E1E6512C2001DA4E8 /* LaunchScreen.storyboard */; };
+		04E564AB1E6512C3001DA4E8 /* DWQDBMangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564AA1E6512C3001DA4E8 /* DWQDBMangerTests.m */; };
+		04E564B61E6512C3001DA4E8 /* DWQDBMangerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564B51E6512C3001DA4E8 /* DWQDBMangerUITests.m */; };
+		04E564C81E651312001DA4E8 /* DWQDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564C51E651312001DA4E8 /* DWQDBModel.m */; };
+		04E564C91E651312001DA4E8 /* DWQDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564C71E651312001DA4E8 /* DWQDBTool.m */; };
+		04E564D61E65133D001DA4E8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564CC1E65133D001DA4E8 /* FMDatabase.m */; };
+		04E564D71E65133D001DA4E8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564CE1E65133D001DA4E8 /* FMDatabaseAdditions.m */; };
+		04E564D81E65133D001DA4E8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564D01E65133D001DA4E8 /* FMDatabasePool.m */; };
+		04E564D91E65133D001DA4E8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564D21E65133D001DA4E8 /* FMDatabaseQueue.m */; };
+		04E564DA1E65133D001DA4E8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564D51E65133D001DA4E8 /* FMResultSet.m */; };
+		04E564DD1E6513B8001DA4E8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E564DC1E6513B8001DA4E8 /* libsqlite3.tbd */; };
+		04E564DF1E651EE8001DA4E8 /* 杜文全正式.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04E564DE1E651EE8001DA4E8 /* 杜文全正式.jpeg */; };
+		04E564E21E651F9D001DA4E8 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564E11E651F9D001DA4E8 /* UserInfo.m */; };
+		04E564E61E652071001DA4E8 /* DWQQueryControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564E41E652071001DA4E8 /* DWQQueryControllerViewController.m */; };
+		04E564E71E652071001DA4E8 /* DWQQueryControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E564E51E652071001DA4E8 /* DWQQueryControllerViewController.xib */; };
+		04E564EB1E65234F001DA4E8 /* InsertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E564E91E65234F001DA4E8 /* InsertViewController.m */; };
+		04E564EC1E65234F001DA4E8 /* InsertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E564EA1E65234F001DA4E8 /* InsertViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E564A71E6512C3001DA4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E564851E6512C2001DA4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E5648C1E6512C2001DA4E8;
+			remoteInfo = DWQDBManger;
+		};
+		04E564B21E6512C3001DA4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E564851E6512C2001DA4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E5648C1E6512C2001DA4E8;
+			remoteInfo = DWQDBManger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E5648D1E6512C2001DA4E8 /* DWQDBManger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWQDBManger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E564911E6512C2001DA4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E564931E6512C2001DA4E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E564941E6512C2001DA4E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E564961E6512C2001DA4E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E564971E6512C2001DA4E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E5649A1E6512C2001DA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E5649C1E6512C2001DA4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E5649F1E6512C2001DA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E564A11E6512C2001DA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E564A61E6512C3001DA4E8 /* DWQDBMangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWQDBMangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E564AA1E6512C3001DA4E8 /* DWQDBMangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQDBMangerTests.m; sourceTree = "<group>"; };
+		04E564AC1E6512C3001DA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E564B11E6512C3001DA4E8 /* DWQDBMangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWQDBMangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E564B51E6512C3001DA4E8 /* DWQDBMangerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQDBMangerUITests.m; sourceTree = "<group>"; };
+		04E564B71E6512C3001DA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E564C41E651312001DA4E8 /* DWQDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQDBModel.h; sourceTree = "<group>"; };
+		04E564C51E651312001DA4E8 /* DWQDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQDBModel.m; sourceTree = "<group>"; };
+		04E564C61E651312001DA4E8 /* DWQDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQDBTool.h; sourceTree = "<group>"; };
+		04E564C71E651312001DA4E8 /* DWQDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQDBTool.m; sourceTree = "<group>"; };
+		04E564CB1E65133D001DA4E8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		04E564CC1E65133D001DA4E8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		04E564CD1E65133D001DA4E8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		04E564CE1E65133D001DA4E8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		04E564CF1E65133D001DA4E8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		04E564D01E65133D001DA4E8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		04E564D11E65133D001DA4E8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		04E564D21E65133D001DA4E8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		04E564D31E65133D001DA4E8 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		04E564D41E65133D001DA4E8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		04E564D51E65133D001DA4E8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		04E564DC1E6513B8001DA4E8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04E564DE1E651EE8001DA4E8 /* 杜文全正式.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "杜文全正式.jpeg"; path = "DWQDBManger/杜文全正式.jpeg"; sourceTree = "<group>"; };
+		04E564E01E651F9D001DA4E8 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		04E564E11E651F9D001DA4E8 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		04E564E31E652071001DA4E8 /* DWQQueryControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQQueryControllerViewController.h; sourceTree = "<group>"; };
+		04E564E41E652071001DA4E8 /* DWQQueryControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQQueryControllerViewController.m; sourceTree = "<group>"; };
+		04E564E51E652071001DA4E8 /* DWQQueryControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWQQueryControllerViewController.xib; sourceTree = "<group>"; };
+		04E564E81E65234F001DA4E8 /* InsertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertViewController.h; sourceTree = "<group>"; };
+		04E564E91E65234F001DA4E8 /* InsertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertViewController.m; sourceTree = "<group>"; };
+		04E564EA1E65234F001DA4E8 /* InsertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsertViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E5648A1E6512C2001DA4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E564DD1E6513B8001DA4E8 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564A31E6512C3001DA4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564AE1E6512C3001DA4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E564841E6512C2001DA4E8 = {
+			isa = PBXGroup;
+			children = (
+				04E5648F1E6512C2001DA4E8 /* DWQDBManger */,
+				04E564A91E6512C3001DA4E8 /* DWQDBMangerTests */,
+				04E564B41E6512C3001DA4E8 /* DWQDBMangerUITests */,
+				04E5648E1E6512C2001DA4E8 /* Products */,
+				04E564DB1E6513B8001DA4E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E5648E1E6512C2001DA4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E5648D1E6512C2001DA4E8 /* DWQDBManger.app */,
+				04E564A61E6512C3001DA4E8 /* DWQDBMangerTests.xctest */,
+				04E564B11E6512C3001DA4E8 /* DWQDBMangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E5648F1E6512C2001DA4E8 /* DWQDBManger */ = {
+			isa = PBXGroup;
+			children = (
+				04E564C31E6512D4001DA4E8 /* DWQDBManger */,
+				04E564931E6512C2001DA4E8 /* AppDelegate.h */,
+				04E564941E6512C2001DA4E8 /* AppDelegate.m */,
+				04E564E01E651F9D001DA4E8 /* UserInfo.h */,
+				04E564E11E651F9D001DA4E8 /* UserInfo.m */,
+				04E564961E6512C2001DA4E8 /* ViewController.h */,
+				04E564971E6512C2001DA4E8 /* ViewController.m */,
+				04E564E81E65234F001DA4E8 /* InsertViewController.h */,
+				04E564E91E65234F001DA4E8 /* InsertViewController.m */,
+				04E564EA1E65234F001DA4E8 /* InsertViewController.xib */,
+				04E564E31E652071001DA4E8 /* DWQQueryControllerViewController.h */,
+				04E564E41E652071001DA4E8 /* DWQQueryControllerViewController.m */,
+				04E564E51E652071001DA4E8 /* DWQQueryControllerViewController.xib */,
+				04E564DE1E651EE8001DA4E8 /* 杜文全正式.jpeg */,
+				04E564991E6512C2001DA4E8 /* Main.storyboard */,
+				04E5649C1E6512C2001DA4E8 /* Assets.xcassets */,
+				04E5649E1E6512C2001DA4E8 /* LaunchScreen.storyboard */,
+				04E564A11E6512C2001DA4E8 /* Info.plist */,
+				04E564901E6512C2001DA4E8 /* Supporting Files */,
+			);
+			path = DWQDBManger;
+			sourceTree = "<group>";
+		};
+		04E564901E6512C2001DA4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E564911E6512C2001DA4E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E564A91E6512C3001DA4E8 /* DWQDBMangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E564AA1E6512C3001DA4E8 /* DWQDBMangerTests.m */,
+				04E564AC1E6512C3001DA4E8 /* Info.plist */,
+			);
+			path = DWQDBMangerTests;
+			sourceTree = "<group>";
+		};
+		04E564B41E6512C3001DA4E8 /* DWQDBMangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E564B51E6512C3001DA4E8 /* DWQDBMangerUITests.m */,
+				04E564B71E6512C3001DA4E8 /* Info.plist */,
+			);
+			path = DWQDBMangerUITests;
+			sourceTree = "<group>";
+		};
+		04E564C31E6512D4001DA4E8 /* DWQDBManger */ = {
+			isa = PBXGroup;
+			children = (
+				04E564CA1E65133D001DA4E8 /* FMDB */,
+				04E564C41E651312001DA4E8 /* DWQDBModel.h */,
+				04E564C51E651312001DA4E8 /* DWQDBModel.m */,
+				04E564C61E651312001DA4E8 /* DWQDBTool.h */,
+				04E564C71E651312001DA4E8 /* DWQDBTool.m */,
+			);
+			path = DWQDBManger;
+			sourceTree = "<group>";
+		};
+		04E564CA1E65133D001DA4E8 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				04E564CB1E65133D001DA4E8 /* FMDatabase.h */,
+				04E564CC1E65133D001DA4E8 /* FMDatabase.m */,
+				04E564CD1E65133D001DA4E8 /* FMDatabaseAdditions.h */,
+				04E564CE1E65133D001DA4E8 /* FMDatabaseAdditions.m */,
+				04E564CF1E65133D001DA4E8 /* FMDatabasePool.h */,
+				04E564D01E65133D001DA4E8 /* FMDatabasePool.m */,
+				04E564D11E65133D001DA4E8 /* FMDatabaseQueue.h */,
+				04E564D21E65133D001DA4E8 /* FMDatabaseQueue.m */,
+				04E564D31E65133D001DA4E8 /* FMDB.h */,
+				04E564D41E65133D001DA4E8 /* FMResultSet.h */,
+				04E564D51E65133D001DA4E8 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		04E564DB1E6513B8001DA4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E564DC1E6513B8001DA4E8 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E5648C1E6512C2001DA4E8 /* DWQDBManger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E564BA1E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBManger" */;
+			buildPhases = (
+				04E564891E6512C2001DA4E8 /* Sources */,
+				04E5648A1E6512C2001DA4E8 /* Frameworks */,
+				04E5648B1E6512C2001DA4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWQDBManger;
+			productName = DWQDBManger;
+			productReference = 04E5648D1E6512C2001DA4E8 /* DWQDBManger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E564A51E6512C3001DA4E8 /* DWQDBMangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E564BD1E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBMangerTests" */;
+			buildPhases = (
+				04E564A21E6512C3001DA4E8 /* Sources */,
+				04E564A31E6512C3001DA4E8 /* Frameworks */,
+				04E564A41E6512C3001DA4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E564A81E6512C3001DA4E8 /* PBXTargetDependency */,
+			);
+			name = DWQDBMangerTests;
+			productName = DWQDBMangerTests;
+			productReference = 04E564A61E6512C3001DA4E8 /* DWQDBMangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E564B01E6512C3001DA4E8 /* DWQDBMangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E564C01E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBMangerUITests" */;
+			buildPhases = (
+				04E564AD1E6512C3001DA4E8 /* Sources */,
+				04E564AE1E6512C3001DA4E8 /* Frameworks */,
+				04E564AF1E6512C3001DA4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E564B31E6512C3001DA4E8 /* PBXTargetDependency */,
+			);
+			name = DWQDBMangerUITests;
+			productName = DWQDBMangerUITests;
+			productReference = 04E564B11E6512C3001DA4E8 /* DWQDBMangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E564851E6512C2001DA4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.sdzw.duwenquan;
+				TargetAttributes = {
+					04E5648C1E6512C2001DA4E8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					04E564A51E6512C3001DA4E8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E5648C1E6512C2001DA4E8;
+					};
+					04E564B01E6512C3001DA4E8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E5648C1E6512C2001DA4E8;
+					};
+				};
+			};
+			buildConfigurationList = 04E564881E6512C2001DA4E8 /* Build configuration list for PBXProject "DWQDBManger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E564841E6512C2001DA4E8;
+			productRefGroup = 04E5648E1E6512C2001DA4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E5648C1E6512C2001DA4E8 /* DWQDBManger */,
+				04E564A51E6512C3001DA4E8 /* DWQDBMangerTests */,
+				04E564B01E6512C3001DA4E8 /* DWQDBMangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E5648B1E6512C2001DA4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E564A01E6512C2001DA4E8 /* LaunchScreen.storyboard in Resources */,
+				04E564E71E652071001DA4E8 /* DWQQueryControllerViewController.xib in Resources */,
+				04E5649D1E6512C2001DA4E8 /* Assets.xcassets in Resources */,
+				04E5649B1E6512C2001DA4E8 /* Main.storyboard in Resources */,
+				04E564DF1E651EE8001DA4E8 /* 杜文全正式.jpeg in Resources */,
+				04E564EC1E65234F001DA4E8 /* InsertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564A41E6512C3001DA4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564AF1E6512C3001DA4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E564891E6512C2001DA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E564981E6512C2001DA4E8 /* ViewController.m in Sources */,
+				04E564C91E651312001DA4E8 /* DWQDBTool.m in Sources */,
+				04E564EB1E65234F001DA4E8 /* InsertViewController.m in Sources */,
+				04E564951E6512C2001DA4E8 /* AppDelegate.m in Sources */,
+				04E564D61E65133D001DA4E8 /* FMDatabase.m in Sources */,
+				04E564DA1E65133D001DA4E8 /* FMResultSet.m in Sources */,
+				04E564C81E651312001DA4E8 /* DWQDBModel.m in Sources */,
+				04E564E61E652071001DA4E8 /* DWQQueryControllerViewController.m in Sources */,
+				04E564D81E65133D001DA4E8 /* FMDatabasePool.m in Sources */,
+				04E564D71E65133D001DA4E8 /* FMDatabaseAdditions.m in Sources */,
+				04E564E21E651F9D001DA4E8 /* UserInfo.m in Sources */,
+				04E564921E6512C2001DA4E8 /* main.m in Sources */,
+				04E564D91E65133D001DA4E8 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564A21E6512C3001DA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E564AB1E6512C3001DA4E8 /* DWQDBMangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E564AD1E6512C3001DA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E564B61E6512C3001DA4E8 /* DWQDBMangerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E564A81E6512C3001DA4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E5648C1E6512C2001DA4E8 /* DWQDBManger */;
+			targetProxy = 04E564A71E6512C3001DA4E8 /* PBXContainerItemProxy */;
+		};
+		04E564B31E6512C3001DA4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E5648C1E6512C2001DA4E8 /* DWQDBManger */;
+			targetProxy = 04E564B21E6512C3001DA4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E564991E6512C2001DA4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E5649A1E6512C2001DA4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E5649E1E6512C2001DA4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E5649F1E6512C2001DA4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E564B81E6512C3001DA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E564B91E6512C3001DA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E564BB1E6512C3001DA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DWQDBManger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E564BC1E6512C3001DA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DWQDBManger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E564BE1E6512C3001DA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQDBMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQDBManger.app/DWQDBManger";
+			};
+			name = Debug;
+		};
+		04E564BF1E6512C3001DA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQDBMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQDBManger.app/DWQDBManger";
+			};
+			name = Release;
+		};
+		04E564C11E6512C3001DA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQDBMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBMangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWQDBManger;
+			};
+			name = Debug;
+		};
+		04E564C21E6512C3001DA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = DWQDBMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdzw.DWQDBMangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWQDBManger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E564881E6512C2001DA4E8 /* Build configuration list for PBXProject "DWQDBManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E564B81E6512C3001DA4E8 /* Debug */,
+				04E564B91E6512C3001DA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E564BA1E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E564BB1E6512C3001DA4E8 /* Debug */,
+				04E564BC1E6512C3001DA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E564BD1E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBMangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E564BE1E6512C3001DA4E8 /* Debug */,
+				04E564BF1E6512C3001DA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E564C01E6512C3001DA4E8 /* Build configuration list for PBXNativeTarget "DWQDBMangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E564C11E6512C3001DA4E8 /* Debug */,
+				04E564C21E6512C3001DA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E564851E6512C2001DA4E8 /* Project object */;
+}
